@@ -37,6 +37,11 @@ export default {
       rating: "4.9/5 average rating",
       travelers: "50,000+ happy travelers",
       destinations: "120+ destinations covered"
+    },
+    floatingCard: {
+      tagline: "Plan your next escape",
+      title: "Featured Upcoming Tour",
+      desc: "Verified packages, local guides, and guaranteed seats."
     }
   },
   search: {
@@ -311,6 +316,66 @@ export default {
       title: "Contact Us",
       subtitle: "Get in touch with our travel specialists. We're here to answer every question.",
       content: "Contact Us"
+    }
+  },
+  booking: {
+    backToTours: "Back to tours",
+    pageTitle: "Book Your Tour",
+    pageSubtitle: "Reserve your spot in minutes. Our team will verify and manage everything for you.",
+    summaryTitle: "Tour Summary",
+    seatsAvailable: "Seats available",
+    pricePerPerson: "Price per person",
+    dates: "Dates",
+    duration: "Duration",
+    totalEstimate: "Estimated Total",
+    trustNote: "Our team will call you to confirm your booking.",
+    verifiedTrustNote: "Verified itinerary & confirmed group transport",
+    upcomingTourBadge: "Upcoming Tour",
+    decreaseTravelers: "Decrease travelers",
+    increaseTravelers: "Increase travelers",
+    traveler: "traveler",
+    travelers: "travelers",
+    submitBtn: "Confirm Booking Request",
+    submittingBtn: "Confirming...",
+    tourNotFoundTitle: "Tour Not Found",
+    tourNotFoundDesc: "The tour you are trying to book does not exist or may have been removed.",
+    backToHome: "Back to Home",
+    form: {
+      fullNameLabel: "Full Name",
+      fullNamePlaceholder: "e.g. Tanvir Ahmed",
+      phoneLabel: "Phone Number",
+      phonePlaceholder: "01XXXXXXXXX (11 digits)",
+      travelersLabel: "Number of Travelers",
+      travelersHint: "Max {{max}} travelers based on available seats",
+      boardingPointLabel: "Boarding Point",
+      boardingPointPlaceholder: "Select a boarding point",
+      foodPreferenceLabel: "Food preference / allergy (optional)",
+      foodPreferencePlaceholder: "e.g. Halal, vegetarian, nut allergy",
+      emergencyContactLabel: "Emergency Contact Number",
+      emergencyContactPlaceholder: "01XXXXXXXXX (11 digits)"
+    },
+    errors: {
+      fullNameRequired: "Please enter your full name.",
+      phoneRequired: "Please enter your phone number.",
+      phoneInvalid: "Please enter a valid 11-digit Bangladeshi mobile number (e.g. 01712345678).",
+      travelersRequired: "Please specify the number of travelers.",
+      travelersMin: "At least 1 traveler is required.",
+      travelersMax: "Only {{max}} seats are available for this tour.",
+      boardingPointRequired: "Please select your boarding point.",
+      emergencyContactRequired: "Please enter an emergency contact number.",
+      emergencyContactInvalid: "Please enter a valid 11-digit Bangladeshi mobile number.",
+      emergencyContactSame: "Emergency contact must be different from your primary phone number."
+    },
+    toast: {
+      success: "Thank you! Our team will call you shortly to confirm your booking."
+    },
+    boardingPoints: {
+      abdullahpur: "Abdullahpur, Uttara",
+      mohakhali: "Mohakhali Bus Terminal",
+      sayedabad: "Sayedabad Bus Terminal",
+      gabtoli: "Gabtoli Bus Terminal",
+      kallyanpur: "Kallyanpur",
+      arambagh: "Arambagh / Motijheel"
     }
   }
 }

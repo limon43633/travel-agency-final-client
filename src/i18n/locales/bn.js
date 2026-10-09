@@ -37,6 +37,11 @@ export default {
       rating: "৪.৯/৫ গড় রেটিং",
       travelers: "৫০,০০০+ সন্তুষ্ট ভ্রমণকারী",
       destinations: "১২০+ গন্তব্য অন্তর্ভুক্ত"
+    },
+    floatingCard: {
+      tagline: "আপনার পরবর্তী ট্যুরের পরিকল্পনা করুন",
+      title: "বাছাইকৃত আসন্ন ট্যুর",
+      desc: "যাচাইকৃত প্যাকেজ, স্থানীয় গাইড এবং নিশ্চিত আসন।"
     }
   },
   search: {
@@ -311,6 +316,66 @@ export default {
       title: "যোগাযোগ করুন",
       subtitle: "আমাদের ভ্রমণ বিশেষজ্ঞদের সাথে যোগাযোগ করুন। আপনার যেকোনো প্রশ্নের উত্তর দিতে আমরা প্রস্তুত।",
       content: "যোগাযোগের বিস্তারিত মাধ্যম"
+    }
+  },
+  booking: {
+    backToTours: "ট্যুর তালিকায় ফিরে যান",
+    pageTitle: "আপনার ট্যুর বুকিং করুন",
+    pageSubtitle: "কয়েক মিনিটেই আপনার আসন নিশ্চিত করুন। আপনার ভ্রমণের সব ব্যবস্থা আমরাই করব।",
+    summaryTitle: "ট্যুর সারসংক্ষেপ",
+    seatsAvailable: "আসন অবশিষ্ট",
+    pricePerPerson: "জনপ্রতি মূল্য",
+    dates: "তারিখ",
+    duration: "সময়সীমা",
+    totalEstimate: "আনুমানিক মোট খরচ",
+    trustNote: "আমাদের টিম আপনার বুকিং নিশ্চিত করতে দ্রুত কল করবে।",
+    verifiedTrustNote: "যাচাইকৃত ভ্রমণসূচি এবং নিশ্চিত গ্রুপ পরিবহন",
+    upcomingTourBadge: "আসন্ন ট্যুর",
+    decreaseTravelers: "ভ্রমণকারী সংখ্যা কমান",
+    increaseTravelers: "ভ্রমণকারী সংখ্যা বাড়ান",
+    traveler: "জন",
+    travelers: "জন",
+    submitBtn: "বুকিং অনুরোধ নিশ্চিত করুন",
+    submittingBtn: "অনুরোধ জমা হচ্ছে...",
+    tourNotFoundTitle: "ট্যুরটি খুঁজে পাওয়া যায়নি",
+    tourNotFoundDesc: "আপনি যে ট্যুরটি বুক করতে চাচ্ছেন তা এই মুহূর্তে বিদ্যমান নেই অথবা সরানো হয়েছে।",
+    backToHome: "হোমে ফিরে যান",
+    form: {
+      fullNameLabel: "পূর্ণ নাম",
+      fullNamePlaceholder: "যেমন: তানভীর আহমেদ",
+      phoneLabel: "ফোন নম্বর",
+      phonePlaceholder: "০১XXXXXXXXX (১১ ডিজিট)",
+      travelersLabel: "ভ্রমণকারীর সংখ্যা",
+      travelersHint: "সর্বোচ্চ {{max}} জন (অবশিষ্ট আসন অনুযায়ী)",
+      boardingPointLabel: "যাত্রা শুরুর স্থান (বোর্ডিং পয়েন্ট)",
+      boardingPointPlaceholder: "বোর্ডিং পয়েন্ট নির্বাচন করুন",
+      foodPreferenceLabel: "খাবার পছন্দ / অ্যালার্জি (ঐচ্ছিক)",
+      foodPreferencePlaceholder: "যেমন: হালাল, নিরামিষ, বাদামে অ্যালার্জি",
+      emergencyContactLabel: "জরুরি যোগাযোগের নম্বর",
+      emergencyContactPlaceholder: "০১XXXXXXXXX (১১ ডিজিট)"
+    },
+    errors: {
+      fullNameRequired: "অনুগ্রহ করে আপনার পূর্ণ নাম লিখুন।",
+      phoneRequired: "অনুগ্রহ করে আপনার ফোন নম্বর লিখুন।",
+      phoneInvalid: "সঠিক ১১ ডিজিটের বাংলাদেশী মোবাইল নম্বর দিন (যেমন: 01712345678)।",
+      travelersRequired: "অনুগ্রহ করে ভ্রমণকারীর সংখ্যা নির্ধারণ করুন।",
+      travelersMin: "কমপক্ষে ১ জন ভ্রমণকারী আবশ্যক।",
+      travelersMax: "এই ট্যুরে মাত্র {{max}}টি আসন অবশিষ্ট রয়েছে।",
+      boardingPointRequired: "অনুগ্রহ করে বোর্ডিং পয়েন্ট নির্বাচন করুন।",
+      emergencyContactRequired: "অনুগ্রহ করে একটি জরুরি ফোন নম্বর লিখুন।",
+      emergencyContactInvalid: "সঠিক ১১ ডিজিটের বাংলাদেশী মোবাইল নম্বর দিন।",
+      emergencyContactSame: "জরুরি যোগাযোগের নম্বরটি আপনার মূল ফোন নম্বর থেকে ভিন্ন হতে হবে।"
+    },
+    toast: {
+      success: "ধন্যবাদ! আপনার বুকিং নিশ্চিত করতে আমাদের টিম শীঘ্রই আপনাকে কল করবে।"
+    },
+    boardingPoints: {
+      abdullahpur: "আব্দুল্লাহপুর, উত্তরা",
+      mohakhali: "মহাখালী বাস টার্মিনাল",
+      sayedabad: "সায়েদাবাদ বাস টার্মিনাল",
+      gabtoli: "গাবতলী বাস টার্মিনাল",
+      kallyanpur: "কল্যাণপুর",
+      arambagh: "আরামবাগ / মতিঝিল"
     }
   }
 }

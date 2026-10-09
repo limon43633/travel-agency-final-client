@@ -59,7 +59,7 @@ const UpcomingTours = () => {
             <div key={tour.id} className="group">
               {/* Image */}
               <Link
-                to={`/tour/${tour.id}`}
+                to={`/book/${tour.id}`}
                 className="relative block overflow-hidden rounded-2xl aspect-[4/3] bg-[#F1F2EC] shadow-[0_1px_3px_rgba(20,25,15,0.06)] group-hover:shadow-[0_16px_40px_rgba(20,25,15,0.14)] transition-shadow duration-500"
               >
                 <img
@@ -136,7 +136,7 @@ const UpcomingTours = () => {
                 {/* Book Now button + social proof */}
                 <div className="flex items-center gap-2.5 mt-3">
                   <Link
-                    to={`/tour/${tour.id}`}
+                    to={`/book/${tour.id}`}
                     className="flex items-center gap-1.5 border border-[#15170F]/20 hover:border-[#15170F] hover:bg-[#15170F] hover:text-white text-[#15170F] text-xs font-medium rounded-full px-4 py-2 transition-all duration-300 shrink-0"
                   >
                     {t('common.bookNow')}
