@@ -23,7 +23,8 @@ const UpcomingTours = () => {
   }
 
   return (
-    <section className="max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-20">
+    <section id="packages" className="max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-20 scroll-mt-10">
+      <div id="upcoming-tours" className="-mt-10 pt-10" />
       {/* Section heading */}
       <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10 pb-6 border-b border-[#E3E4DA]">
         <div>

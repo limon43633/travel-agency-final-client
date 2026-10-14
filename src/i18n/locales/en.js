@@ -38,10 +38,10 @@ export default {
       travelers: "50,000+ happy travelers",
       destinations: "120+ destinations covered"
     },
-    floatingCard: {
-      tagline: "Plan your next escape",
-      title: "Featured Upcoming Tour",
-      desc: "Verified packages, local guides, and guaranteed seats."
+    chips: {
+      callConfirm: "We call to confirm",
+      qrTicket: "QR e-ticket",
+      mealTracking: "Meal tracking"
     }
   },
   search: {
@@ -167,27 +167,115 @@ export default {
       label: "Travelers trust us across Bangladesh"
     }
   },
-  howItWorks: {
-    heading: "How it works",
-    tagline: "From idea to itinerary in four simple steps",
-    steps: [
-      {
-        title: "Find your destination",
-        description: "Browse handpicked spots across Bangladesh, filtered by budget, duration, and the kind of trip you're after."
+  trustStrip: {
+    realCalls: {
+      title: "Real team, real calls",
+      desc: "We call every traveler to confirm"
+    },
+    registered: {
+      title: "Registered agency",
+      license: "Trade Lic: TRAD/DSCC/024891/2020 (Placeholder)"
+    },
+    office: {
+      title: "Office you can visit",
+      address: "House 14, Road 7, Banani, Dhaka (Placeholder)"
+    },
+    experience: {
+      title: "Years of experience",
+      count: "8+ years guiding trips across Bangladesh"
+    }
+  },
+  specialities: {
+    heading: "What we are best at",
+    subheading: "Handcrafted journeys tailored for every terrain and travel style across Bangladesh.",
+    items: {
+      hillTrekking: {
+        title: "Hill and trekking trips",
+        desc: "Cloud peaks, remote ethnic trails, and high-ridge expeditions through Bandarban & Sajek."
       },
-      {
-        title: "Pick your dates",
-        description: "Choose your travel window and group size — we'll show you real availability, not placeholder dates."
+      seaBeach: {
+        title: "Sea and beach trips",
+        desc: "Sandy coastlines, sunset walks, and relaxed beach days in Cox's Bazar & Saint Martin."
       },
-      {
-        title: "Book and pay securely",
-        description: "Confirm your package with a few payment options. The price you saw is exactly what you're charged."
+      forestRiver: {
+        title: "Forest and river trips",
+        desc: "Deep mangrove trails, canal boat cruises, and birdwatching in Sundarbans & Tanguar Haor."
       },
-      {
-        title: "Pack and go",
-        description: "We send your itinerary, host contact, and a packing checklist — everything you need before departure."
+      familyTrips: {
+        title: "Family trips",
+        desc: "Comfortable pacing, safe verified resorts, and child-friendly itineraries for all generations."
+      },
+      friendsStudent: {
+        title: "Friends and student groups",
+        desc: "Budget-conscious group departures packed with bonfires, camping, and unforgettable stories."
+      },
+      corporateTours: {
+        title: "Corporate and office tours",
+        desc: "Hassle-free annual retreats, team-building excursions, and organized transport for offices."
       }
-    ]
+    }
+  },
+  howWeWork: {
+    heading: "How we work",
+    tagline: "Simple, transparent, human-first booking from start to finish",
+    steps: {
+      step1: {
+        title: "Choose a tour and fill the booking form",
+        desc: "Browse our handpicked upcoming departures, pick your date, and submit the quick booking form."
+      },
+      step2: {
+        title: "Our team calls you",
+        desc: "A dedicated tour coordinator calls you directly to verify seats, answer questions, and confirm requirements."
+      },
+      step3: {
+        title: "Booking confirmed",
+        desc: "Once all details are confirmed over the phone, your reservation slot is locked in immediately."
+      },
+      step4: {
+        title: "Pay the advance by bKash, Nagad or cash",
+        desc: "Send your token advance easily via bKash, Nagad, or visit our physical office in Banani."
+      },
+      step5: {
+        title: "Get your QR e-ticket and check in on the tour day",
+        desc: "Receive your digital QR e-ticket via WhatsApp and SMS, and simply show it at departure."
+      }
+    },
+    callNoticeTitle: "No online payment needed to reserve your seat",
+    callNotice: "Our team will call you to confirm your booking. Payment is handled manually via bKash, Nagad, or cash after verification."
+  },
+  team: {
+    heading: "Meet the people who travel with you",
+    subheading: "Passionate local guides, trip curators, and coordinators behind every single departure.",
+    roles: {
+      founder: "Founder & Curator",
+      leadGuide: "Lead Trekking Guide",
+      operations: "Trip Operations",
+      support: "Traveler Support"
+    },
+    roleBadges: {
+      founder: "Founder",
+      leadGuide: "Lead Guide",
+      operations: "Operations",
+      support: "Support"
+    },
+    members: {
+      "member-1": {
+        experience: "8+ years curating remote and community-led routes across Bangladesh."
+      },
+      "member-2": {
+        experience: "50+ successful mountain trails and certified wilderness first responder."
+      },
+      "member-3": {
+        experience: "Managing stays, transport logistics, and safety standards on ground."
+      },
+      "member-4": {
+        experience: "Always a phone call or WhatsApp message away before, during, and after trips."
+      }
+    },
+    actions: {
+      call: "Call",
+      whatsapp: "WhatsApp"
+    }
   },
   tourMemories: {
     heading: "Our latest tour memories",
