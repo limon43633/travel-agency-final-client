@@ -514,6 +514,7 @@ export default {
       }
     },
     signatureHeading: "The TripNest Difference",
+    signatureTitle: "Built for peace of mind",
     signatureSubheading: "Built on human trust and modern convenience, here is how we stand out.",
     signature: {
       callConfirm: {

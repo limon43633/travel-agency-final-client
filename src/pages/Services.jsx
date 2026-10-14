@@ -111,7 +111,7 @@ const Services = () => {
             {t('servicesPage.signatureHeading')}
           </span>
           <h2 className="text-[#15170F] font-serif text-3xl sm:text-4xl md:text-5xl tracking-tight italic mt-2">
-            Built for peace of mind
+            {t('servicesPage.signatureTitle')}
           </h2>
           <p className="text-[#73766B] text-sm sm:text-base font-light mt-3">
             {t('servicesPage.signatureSubheading')}

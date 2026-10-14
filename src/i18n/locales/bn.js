@@ -514,6 +514,7 @@ export default {
       }
     },
     signatureHeading: "আমাদের অনন্য বৈশিষ্ট্য",
+    signatureTitle: "আপনার নিশ্চিন্ত ও নির্ভার ভ্রমণ",
     signatureSubheading: "আস্থা ও আধুনিক ব্যবস্থাপনায় আমরা যেভাবে আপনার ভ্রমণকে করি অনন্য।",
     signature: {
       callConfirm: {
