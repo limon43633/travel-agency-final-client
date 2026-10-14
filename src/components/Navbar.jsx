@@ -72,8 +72,8 @@ const Navbar = () => {
 
                 return `${baseClasses} ${
                   isActive
-                    ? 'bg-[#F1F2EC] text-[#15170F] font-medium'
-                    : 'text-[#9A9C90] font-normal hover:text-[#15170F]'
+                    ? 'bg-[#A6F24A]/25 text-[#1C3308] font-semibold'
+                    : 'text-[#5D5F56] font-normal hover:text-[#15170F] hover:bg-[#F7F8F4]'
                 }`
               }}
             >
@@ -91,7 +91,10 @@ const Navbar = () => {
             {t('nav.login')}
           </button>
 
-          <button className="hidden md:block bg-[#A6F24A] hover:bg-[#93DB3D] text-[#1C3308] font-medium text-sm rounded-full px-6 lg:px-7 py-3 shadow-[0_8px_24px_rgba(20,25,15,0.14)] transition-all active:scale-95 cursor-pointer">
+          <button
+            onClick={() => navigate('/packages')}
+            className="hidden md:block bg-[#A6F24A] hover:bg-[#93DB3D] text-[#1C3308] font-medium text-sm rounded-full px-6 lg:px-7 py-3 shadow-[0_8px_24px_rgba(20,25,15,0.14)] transition-all active:scale-95 cursor-pointer"
+          >
             {t('nav.explore')}
           </button>
 
@@ -143,7 +146,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     `group flex items-center justify-between rounded-2xl px-4 py-3.5 text-[14px] font-medium transition-all duration-200 ${
                       isActive
-                        ? 'bg-[#F1F2EC] text-[#15170F]'
+                        ? 'bg-[#A6F24A]/25 text-[#1C3308] font-semibold'
                         : 'text-[#5D5F56] hover:bg-[#F7F8F4] hover:text-[#15170F]'
                     }`
                   }
@@ -171,7 +174,13 @@ const Navbar = () => {
                 {t('nav.login')}
               </button>
 
-              <button className="rounded-full bg-[#A6F24A] hover:bg-[#93DB3D] text-[#1C3308] text-sm font-semibold py-3.5 transition-all duration-200 active:scale-[0.97] shadow-[0_6px_16px_rgba(166,242,74,0.3)] cursor-pointer">
+              <button
+                onClick={() => {
+                  navigate('/packages')
+                  closeMenu()
+                }}
+                className="rounded-full bg-[#A6F24A] hover:bg-[#93DB3D] text-[#1C3308] text-sm font-semibold py-3.5 transition-all duration-200 active:scale-[0.97] shadow-[0_6px_16px_rgba(166,242,74,0.3)] cursor-pointer"
+              >
                 {t('nav.explore')}
               </button>
             </div>

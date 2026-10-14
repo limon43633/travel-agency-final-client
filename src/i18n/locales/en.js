@@ -384,26 +384,229 @@ export default {
     copyright: "© 2026 TripNest. All rights reserved.",
     tagline: "Made for travelers who explore Bangladesh, one trip at a time."
   },
+  pageHero: {
+    home: "Home"
+  },
   pages: {
     aboutUs: {
       title: "About Us",
-      subtitle: "Discover our story, mission, and passion for authentic travel in Bangladesh.",
-      content: "About us content"
+      subtitle: "Discover our story, mission, and passion for authentic travel in Bangladesh."
     },
     services: {
       title: "Services",
-      subtitle: "Comprehensive travel planning, guided group departures, and tailored corporate retreats.",
-      content: "Services"
+      subtitle: "Comprehensive travel planning, guided group departures, and tailored corporate retreats."
     },
     packages: {
       title: "Packages",
-      subtitle: "Curated travel packages designed for comfort, adventure, and unforgettable memories.",
-      content: "Packages"
+      subtitle: "Curated travel packages designed for comfort, adventure, and unforgettable memories."
     },
     contactUs: {
       title: "Contact Us",
-      subtitle: "Get in touch with our travel specialists. We're here to answer every question.",
-      content: "Contact Us"
+      subtitle: "Get in touch with our travel specialists. We're here to answer every question."
+    }
+  },
+  aboutPage: {
+    eyebrow: "About TripNest",
+    title: "Crafting authentic group journeys across Bangladesh",
+    subtitle: "We travel every route first, partner with local hosts, and guide trips with care and transparency.",
+    story: {
+      eyebrow: "Our Story",
+      headingPart1: "Take the step and explore",
+      headingHighlight: "Bangladesh",
+      headingPart2: "waiting for you.",
+      p1: "We started TripNest because exploring Bangladesh should feel inspiring and effortless, not overwhelming. Instead of unverified itineraries and chaotic coordination, we set out to build a travel collective that does things the right way.",
+      p2: "Every departure is scouted firsthand by our team. We know which cottages overlook the morning mist, which boat captains know the river channels safely, and how to organize transport so you only focus on the journey.",
+      ctaBtn: "Plan with us"
+    },
+    stats: {
+      years: "Years guiding trips across Bangladesh",
+      travelers: "Happy travelers booked with us",
+      destinations: "Handpicked & locally vetted spots",
+      rating: "Average verified traveler rating"
+    },
+    missionVision: {
+      missionTitle: "Our Mission",
+      missionDesc: "To make domestic group travel in Bangladesh simple, transparent, and trustworthy through verified coordination, direct human communication, and zero hidden costs.",
+      visionTitle: "Our Vision",
+      visionDesc: "To be Bangladesh's most cherished travel community — inspiring people to explore hills, coasts, and rivers while respectfully supporting native host communities."
+    },
+    values: {
+      heading: "Values that guide every trip",
+      subheading: "Principles that shape how we curate routes, treat travelers, and respect local hosts.",
+      items: {
+        honestPricing: {
+          title: "Honest Pricing",
+          desc: "The price you see is what you pay. No hidden service charges or surprise checkout additions."
+        },
+        realPeople: {
+          title: "Real People, Real Support",
+          desc: "Every booking is confirmed over a direct phone call. Our dedicated coordinators travel right alongside you."
+        },
+        safetyFirst: {
+          title: "Safety & Care First",
+          desc: "Certified trail leaders, verified transport drivers, and emergency plans for every remote terrain."
+        },
+        localExperience: {
+          title: "Deep Local Roots",
+          desc: "We partner directly with ethnic guides, village boatmen, and indigenous homestays to share real stories."
+        }
+      }
+    }
+  },
+  servicesPage: {
+    eyebrow: "Our Services",
+    title: "Everything you need for a worry-free departure",
+    subtitle: "From comfortable transport to verified stays and dedicated trail guides, we manage all details.",
+    offerHeading: "What we offer",
+    offerSubheading: "Comprehensive travel solutions tailored for groups, families, and corporate teams.",
+    services: {
+      groupTours: {
+        title: "Fixed-Date Group Tours",
+        desc: "Scheduled departures with guaranteed transport, like-minded travel companions, and verified shared rooming."
+      },
+      transport: {
+        title: "Dedicated Transport",
+        desc: "Reserved AC/Non-AC highway buses, 4WD Chander Gari for hill tracks, and scenic engine boat charters."
+      },
+      stay: {
+        title: "Stay & Accommodation",
+        desc: "Handpicked hill resorts, seaside cottages, and verified eco-stays offering privacy, hygiene, and warmth."
+      },
+      meals: {
+        title: "Meals & Food Care",
+        desc: "Wholesome regional cuisine prepared fresh, organized meal scheduling, and allergy-conscious preferences."
+      },
+      guides: {
+        title: "Local Trail Guides",
+        desc: "Certified and native guides who know mountain passes, forest waterways, and local cultural norms intimately."
+      },
+      customTrips: {
+        title: "Custom Group Departures",
+        desc: "Tailored itineraries, private buses, and dedicated coordinators for universities, clubs, and corporate retreats."
+      }
+    },
+    includedHeading: "What is included on every trip",
+    includedSubheading: "Every standard package comes fully prepared with all the essentials.",
+    inclusions: {
+      transport: {
+        title: "Return transport from pickup point",
+        desc: "Reserved highway seating from Dhaka to destination and back."
+      },
+      accommodation: {
+        title: "Verified hotel / resort rooming",
+        desc: "Clean twin/triple/quad share rooms as booked, with modern amenities."
+      },
+      tripLead: {
+        title: "Dedicated tour coordinator",
+        desc: "A TripNest team member manages logistics from pickup to departure."
+      },
+      meals: {
+        title: "Freshly prepared daily meals",
+        desc: "Breakfast, lunch, and dinner with authentic local culinary touches."
+      },
+      safetySupport: {
+        title: "Safety & emergency support",
+        desc: "First-aid kit on board, local guide assistance, and contact protocols."
+      },
+      digitalTicket: {
+        title: "Digital QR e-ticket & phone check-in",
+        desc: "Instant SMS/WhatsApp ticket pass with verified boarding details."
+      }
+    },
+    signatureHeading: "The TripNest Difference",
+    signatureSubheading: "Built on human trust and modern convenience, here is how we stand out.",
+    signature: {
+      callConfirm: {
+        title: "We call to confirm every booking",
+        desc: "No impersonal bots. A human travel coordinator calls you to verify seat availability, room preferences, and pickup points."
+      },
+      qrTicket: {
+        title: "QR e-ticket for every traveler",
+        desc: "Get a verified QR pass sent directly to your phone. Simply show it during bus boarding for seamless departure."
+      },
+      mealTracking: {
+        title: "Meal tracking & allergy care",
+        desc: "We track meal counts so everyone is served without delays, while accommodating dietary preferences."
+      }
+    }
+  },
+  packagesPage: {
+    eyebrow: "Fixed-Date Departures",
+    title: "Handpicked group tours across Bangladesh",
+    subtitle: "Explore upcoming dates, compare itineraries, and reserve your seat with phone verification.",
+    searchPlaceholder: "Search by destination or location...",
+    categories: {
+      all: "All Tours",
+      hill: "Hills & Trekking",
+      beach: "Sea & Beach",
+      forest: "Forest & River"
+    },
+    sort: {
+      label: "Sort by:",
+      date: "Departure Date",
+      priceAsc: "Price: Low to High",
+      priceDesc: "Price: High to Low"
+    },
+    resultsCount: "{{count}} tour available",
+    resultsCount_plural: "{{count}} tours available",
+    emptyState: {
+      title: "No matching tours found",
+      desc: "Try searching for a different destination or clear your filters to view all departures.",
+      clearBtn: "Clear all filters"
+    },
+    customTrip: {
+      title: "Cannot find your preferred dates?",
+      desc: "We also arrange tailored private departures for families, office colleagues, and student groups.",
+      btn: "Request a custom trip"
+    },
+    soldOut: "Sold Out"
+  },
+  contactPage: {
+    eyebrow: "Get In Touch",
+    title: "We are always one call or message away",
+    subtitle: "Have a question about a tour or want a custom departure? Reach out to our team anytime.",
+    infoCards: {
+      phoneTitle: "Call Us Directly",
+      phoneDesc: "Talk to our coordinators for immediate inquiries.",
+      whatsappTitle: "WhatsApp Chat",
+      whatsappDesc: "Quick responses for seat status & tour itineraries.",
+      emailTitle: "Email Us",
+      emailDesc: "Send custom group inquiries and partnership requests.",
+      officeTitle: "Visit Our Office",
+      officeHoursTitle: "Office Hours",
+      callAction: "Call now",
+      whatsappAction: "Chat on WhatsApp",
+      emailAction: "Send email"
+    },
+    form: {
+      title: "Send us a message",
+      subtitle: "Fill out the quick form below. Our tour coordinator will review it and call you shortly.",
+      fullName: "Full Name",
+      fullNamePlaceholder: "e.g. Tanvir Ahmed",
+      phone: "Phone Number",
+      phonePlaceholder: "01XXXXXXXXX (11 digits)",
+      tourInterest: "Tour of Interest (Optional)",
+      tourInterestPlaceholder: "Select a tour or general inquiry",
+      generalInquiry: "General Inquiry",
+      customTripOption: "Custom Group Trip",
+      message: "Your Message",
+      messagePlaceholder: "Tell us about your travel plans, number of people, or any specific questions...",
+      submitBtn: "Send Message",
+      submittingBtn: "Sending...",
+      trustNote: "Our team will call you to confirm.",
+      errors: {
+        nameRequired: "Please enter your full name.",
+        nameMin: "Name must be at least 2 characters.",
+        phoneRequired: "Please enter your phone number.",
+        phoneInvalid: "Please enter a valid 11-digit Bangladeshi mobile number (e.g. 01712345678).",
+        messageRequired: "Please write a message.",
+        messageMin: "Message must be at least 10 characters."
+      },
+      toastSuccess: "Thank you! Our team will contact you soon."
+    },
+    map: {
+      title: "Find Our Banani Office",
+      placeholderNotice: "Interactive map embed will be integrated with verified coordinates. Our office is located in Block C, Banani."
     }
   },
   booking: {

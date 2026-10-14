@@ -7,12 +7,14 @@ import Services from './pages/Services'
 import Packages from './pages/Packages'
 import ContactUs from './pages/ContactUs'
 import BookingPage from './pages/BookingPage'
+import ScrollToTop from './components/ScrollToTop'
 import Layout from './layouts/Layout'
 import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div>
+      <ScrollToTop />
       <Routes>
         {/* Home has its own Navbar (floating over the hero image inside TopBanner) */}
         <Route path='/' element={<Home />} />
